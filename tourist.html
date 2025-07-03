@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>鹿児島の観光地</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f3f9f8;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #2e8b57;
+    }
+    .spot-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .spot-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 15px;
+    }
+    .spot-name {
+      font-weight: bold;
+      color: #4b0069;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    .spot-desc {
+      color: #555555;
+    }
+  </style>
+</head>
+<body>
+  <h1>鹿児島の観光地</h1>
+  <div class="spot-list">
+    <div class="spot-card">
+      <div class="spot-name">桜島</div>
+      <div class="spot-desc">鹿児島湾に浮かぶ活火山。フェリーで渡ることができ、展望所からの眺めも圧巻。</div>
+    </div>
+    <div class="spot-card">
+      <div class="spot-name">仙巌園</div>
+      <div class="spot-desc">島津家の別邸庭園。美しい日本庭園と歴史的建物が魅力。</div>
+    </div>
+    <div class="spot-card">
+      <div class="spot-name">知覧特攻平和会館</div>
+      <div class="spot-desc">第二次大戦の特攻隊員に関する資料館。平和の大切さを学べる場所。</div>
+    </div>
+    <div class="spot-card">
+      <div class="spot-name">指宿温泉</div>
+      <div class="spot-desc">砂蒸し風呂で有名な温泉地。海を眺めながらの入浴は格別。</div>
+    </div>
+    <div class="spot-card">
+      <div class="spot-name">霧島神宮</div>
+      <div class="spot-desc">霧島連山の麓にある由緒ある神社。神秘的な雰囲気が漂う。</div>
+    </div>
+    <div class="spot-card">
+      <div class="spot-name">屋久島</div>
+      <div class="spot-desc">世界遺産に登録された自然豊かな島。縄文杉や苔むす森が有名。</div>
+    </div>
+  </div>
+</body>
+</html>
